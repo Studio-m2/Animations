@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+
+height:100px;
+width:100%;
+background-image:url('im.jpg');
+ background-size: 100% 540%;
+ background-repeat: no-repeat;
+
+}
+
+
+.bird{
+position:absolute;
+bottom:45%;
+right:10px;
+animation:birds 10s linear infinite;
+}
+
+.aeroplane{
+position:absolute;
+bottom:5%;
+left:5px;
+animation:plane 5s linear infinite;
+}
+@keyframes plane {
+100%{
+transform:translatex(0px) translatey(0px) rotate(0deg);
+
+}
+
+30%{
+transform:translatex(200px) translatey(0px) rotate(0deg);
+
+}
+
+100%{
+transform:translatex(1600px) translatey(-300px) rotate(-10deg);
+
+}
+
+}
+
+@keyframes birds {
+100%{
+transform:translatex(0px) translatey(0px) rotate(0deg);
+
+}
+
+30%{
+transform:translatex(-300px) translatey(0px) rotate(0deg);
+
+}
+100%{
+transform:translatex(-1200px) translatey(-200px) rotate(0deg);
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+
+
+
+
+<img  src="jjjj.gif" class="aeroplane" alt="Italian Trulli"   width="300" height="150">
+
+
+<img  src="nn.gif" class="bird" alt="Italian Trulli"   width="300" height="150">
+</body>
+</html>
